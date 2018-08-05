@@ -4,7 +4,7 @@ Pomodoro App
 This app was created by @mike_coding during the Day #3 of #100DaysOfCode challenge.
 Feel free to modify it as you want.
 
-Have a suggestion? Pleasu use Twitter or Github.
+Have a suggestion? Please use Twitter or Github.
 '''
 
 import sys
