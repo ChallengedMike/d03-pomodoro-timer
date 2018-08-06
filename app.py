@@ -33,10 +33,12 @@ else:
 
 current_time = datetime.datetime.now()
 delta = datetime.timedelta(minutes=minutes)
-# Although the video lesson suggests the timedelta method works with seconds only,
-# it does recognize input in minutes or hours as well. See the documentation.
 
 target_datetime = current_time + delta
+
+minutes_str = 'minutes' if minutes > 1 else 'minute'
+
+print('Starting a timer for {} {}...'.format(minutes, minutes_str))
 
 while True:
     now = datetime.datetime.now()
